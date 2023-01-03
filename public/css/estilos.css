@@ -1,8 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital@1&display=swap');
+
 body {
     background-color: #DEDEDE;
+    font-family: 'Anybody', cursive;
 }
 
 .container-fluid {
     width: 60%;
 }
 
+.div-index {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 200px;
+}
+
+.div-img {
+
+}
+
+#img-index {
+    height: 500px;
+}
