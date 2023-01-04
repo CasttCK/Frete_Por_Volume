@@ -10,7 +10,6 @@ function calcularValor(){
     Swal.fire({
         icon: 'success',
         title: '',
-        text: 'Valor do frete é R$ ' + valorCalculado,
-        footer: '<a href="">Entenda o cálculo</a>'
+        text: 'Valor do frete é R$ ' + valorCalculado.toFixed(2),
     });
 }
